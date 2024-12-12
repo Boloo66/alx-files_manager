@@ -11,6 +11,5 @@ app.use("/", router);
 app.listen(port, () => {
   console.log(`server running on port ${port}`);
 });
-console.log(`dir: ${path.dirname(__dirname)}`);
 
 export default app;
